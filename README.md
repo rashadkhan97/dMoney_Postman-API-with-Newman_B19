@@ -60,7 +60,10 @@ API-Assignment/
 ```
 
 ## Newman Report
-### Report Summary 
-![image](https://github.com/user-attachments/assets/a9700e7b-1945-4834-976d-12864dfadbca)
+### Report Summary
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/a9700e7b-1945-4834-976d-12864dfadbca" alt="Report Summary" width="700">
+</p>
 
 
