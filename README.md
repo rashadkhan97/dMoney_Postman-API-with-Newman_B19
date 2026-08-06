@@ -60,13 +60,13 @@ API-Assignment/
 ```
 
 ## Newman Report
-<p align="center"> REPORT SUMMERY </p>
+<p align="center"> <b>REPORT SUMMERY</b> </p>
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/a9700e7b-1945-4834-976d-12864dfadbca" alt="Report Summary" width="700">
 </p>
 
-<p align="center"> TOTAL REQUESTS </p>
+<p align="center"> <b>TOTAL REQUESTS</b> </p>
 <p align="center">
   <img width="697" height="760" alt="image" src="https://github.com/user-attachments/assets/e53fb55e-210c-4f34-8557-9e95b243679a" />
 </p>
