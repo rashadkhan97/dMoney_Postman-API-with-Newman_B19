@@ -58,3 +58,7 @@ API-Assignment/
 ├── report.js                                         # Newman runner script
 └── package.json
 ```
+
+## Newman Report
+### Report Summary 
+
