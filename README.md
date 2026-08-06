@@ -1,57 +1,51 @@
-# API Assignment — B19 Mobile Financial Service API Testing
+# **API Assignment - DMoney Style REST API Testing with Newman**
 
-Postman/Newman test suite for a Mobile Financial Service (MFS) style API (bKash/Nagad-like). Covers admin login, user onboarding (customer, agent, merchant), and money flows: system deposit to agent, agent deposit to customer, send money between customers, cash-out, and merchant bill payment.
+## **Content**
+- [Introduction](#introduction)
+- [Test Cases Scenario](#test-cases-scenario)
+- [API Endpoint Details](#api-endpoint-details)
+- [How to run the project](#how-to-run-the-project)
+- [Technology Used](#technology-used)
+- [Project Structure](#project-structure)
 
-## Test Flow
+## Introduction
 
-1. Admin Login
-2. Customer Create
-3. Agent Create
-4. Merchant Create
-5. System Login and Deposit to Agent
-6. Agent Login and Deposit to Customer 01
-7. Customer 01 Login and Send Money to Customer 02
-8. Customer 02 Login, Cash Out and Pay Merchant Bill
+This project is a Postman/Newman automated test suite for a Mobile Financial Service (MFS) REST API, simulating financial transactions where users transfer virtual/demo money between Admin, Agent, Customer, and Merchant accounts.
 
-## Technologies
+## Test cases scenario
 
-- [Postman](https://www.postman.com/) — collection authoring
-- [Newman](https://www.npmjs.com/package/newman) — CLI collection runner
-- [newman-reporter-htmlextra](https://www.npmjs.com/package/newman-reporter-htmlextra) — HTML test report
-- Node.js
+1. Admin Login.
+2. Admin creates a Customer.
+3. Admin creates an Agent.
+4. Admin creates a Merchant.
+5. System logs in and deposits money to the Agent.
+   - **Hint**: fromAc: `SYSTEM`, toAc: `Agent`
+6. Agent logs in and deposits money to Customer 01.
+   - **Hint**: fromAc: `Agent`, toAc: `Customer`
+7. Customer 01 logs in and sends money to Customer 02.
+   - **Hint**: fromAc: `Customer`, toAc: `Customer`
+8. Customer 02 logs in, cashes out to Agent, and pays a Merchant bill.
+   - **Hint**: fromAc: `Customer`, toAc: `Agent` / `Merchant`
 
-## Prerequisites
+## API Endpoint Details
 
-- Node.js and npm installed
-- API server running locally at `http://localhost:5000` (or update `baseUrl` collection variable)
+- **Base URL**: `{{baseUrl}}` collection variable, default `http://localhost:5000`
+- **Partner Key**: `X-AUTH-SECRET-KEY: ROADTOSDET`
+- Endpoints grouped by folder in the Postman collection: Admin Login, Customer Create, Agent Create, Merchant Create, System Login and Deposit to Agent, Agent Login and Deposit to Customer 01, Customer 01 Login and Send Money to Customer 02, Customer 02 Login, Cash Out and Pay Merchant Bill.
 
-## Clone
+## How to run the project
 
-```bash
-git clone https://github.com/rashadkhan97/dMoney_Postman-API-with-Newman_B19.git
-cd dMoney_Postman-API-with-Newman_B19
-```
+- Clone this project
+   ```console
+   git clone https://github.com/rashadkhan97/dMoney_Postman-API-with-Newman_B19.git
+   ```
+- Open with any code editor / Command Shell
+- Give the following command ```npm i``` and ```node .\report.js```
 
-## Install
-
-```bash
-npm install
-```
-
-Or install dependencies individually:
-
-```bash
-npm install newman
-npm install newman-reporter-htmlextra
-```
-
-## Run
-
-```bash
-node report.js
-```
-
-Runs the Postman collection via Newman and generates an HTML report at `Reports/report.html`. Open it in a browser to view results.
+## Technology Used
+- Postman: If you haven't already, [download and install Postman.](https://www.postman.com/downloads/)
+- Newman
+- newman-reporter-htmlextra
 
 ## Project Structure
 
