@@ -29,9 +29,10 @@ This project is a Postman/Newman automated test suite for a Mobile Financial Ser
 
 ## API Endpoint Details
 
-- **Base URL**: `{{baseUrl}}` collection variable, default `http://localhost:5000`
-- **Partner Key**: `X-AUTH-SECRET-KEY: ROADTOSDET`
-- Endpoints grouped by folder in the Postman collection: Admin Login, Customer Create, Agent Create, Merchant Create, System Login and Deposit to Agent, Agent Login and Deposit to Customer 01, Customer 01 Login and Send Money to Customer 02, Customer 02 Login, Cash Out and Pay Merchant Bill.
+- **User API Endpoints**: [_https://dmoney.roadtocareer.net/api-docs/user_](https://dmoney.roadtocareer.net/api-docs/user)
+
+- **Transaction API Endpoints**: [_https://dmoney.roadtocareer.net/api-docs/transaction_](https://dmoney.roadtocareer.net/api-docs/transaction)
+- **Partner Key**: X-AUTH-SECRET-KEY: `ROADTOSDET`
 
 ## How to run the project
 
