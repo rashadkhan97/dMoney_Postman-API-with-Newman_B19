@@ -18,7 +18,7 @@ This project is a Postman/Newman automated test suite for a Mobile Financial Ser
 2. Admin creates a 2 Customer, 1 Agent, 1 Merchant.
 3. System logs in and deposits money to the Agent.
    - **Hint**: fromAc: `SYSTEM`, toAc: `Agent`
-   `System Credentials - Email: system@dmoney.com; password:1234`
+   - `System Credentials - Email: system@dmoney.com; password:1234`
 4. Agent logs in and deposits money to Customer 01.
    - **Hint**: fromAc: `Agent`, toAc: `Customer`
 5. Customer 01 logs in and sends money to Customer 02.
