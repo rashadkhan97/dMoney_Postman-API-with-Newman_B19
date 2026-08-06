@@ -1,12 +1,14 @@
 # **API Assignment - DMoney Style REST API Testing with Newman**
 
 ## **Content**
-- [Introduction](#introduction)
-- [Test Cases Scenario](#test-cases-scenario)
-- [API Endpoint Details](#api-endpoint-details)
-- [How to run the project](#how-to-run-the-project)
-- [Technology Used](#technology-used)
-- [Project Structure](#project-structure)
+1. [Introduction](#introduction)
+2. [Test Cases Scenario](#test-cases-scenario)
+3. [API Endpoint Details](#api-endpoint-details)
+4. [How to run the project](#how-to-run-the-project)
+5. [Postman API Documentation Link](#postman-api-documentation-link)
+6. [Technology Used](#technology-used)
+7. [Project Structure](#project-structure)
+8. [Newman Report](#newman-report)
 
 ## Introduction
 
