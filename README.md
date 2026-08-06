@@ -15,16 +15,15 @@ This project is a Postman/Newman automated test suite for a Mobile Financial Ser
 ## Test cases scenario
 
 1. Admin Login.
-2. Admin creates a Customer.
-3. Admin creates an Agent.
-4. Admin creates a Merchant.
-5. System logs in and deposits money to the Agent.
+2. Admin creates a 2 Customer, 1 Agent, 1 Merchant.
+3. System logs in and deposits money to the Agent.
    - **Hint**: fromAc: `SYSTEM`, toAc: `Agent`
-6. Agent logs in and deposits money to Customer 01.
+   `System Credentials - Email: system@dmoney.com; password:1234`
+4. Agent logs in and deposits money to Customer 01.
    - **Hint**: fromAc: `Agent`, toAc: `Customer`
-7. Customer 01 logs in and sends money to Customer 02.
+5. Customer 01 logs in and sends money to Customer 02.
    - **Hint**: fromAc: `Customer`, toAc: `Customer`
-8. Customer 02 logs in, cashes out to Agent, and pays a Merchant bill.
+6. Customer 02 logs in, cashes out to Agent, and pays a Merchant bill.
    - **Hint**: fromAc: `Customer`, toAc: `Agent` / `Merchant`
 
 ## API Endpoint Details
