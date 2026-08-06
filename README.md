@@ -44,7 +44,7 @@ This project is a Postman/Newman automated test suite for a Mobile Financial Ser
 
 ## Postman User Documentation
   
-  - **https://documenter.getpostman.com/view/28551494/2sBY4VJxBr**
+  - API Documentation Link:**https://documenter.getpostman.com/view/28551494/2sBY4VJxBr**
 
 ## Technology Used
 - Postman: If you haven't already, [download and install Postman.](https://www.postman.com/downloads/)
