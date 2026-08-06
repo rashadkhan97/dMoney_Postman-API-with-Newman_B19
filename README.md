@@ -42,6 +42,10 @@ This project is a Postman/Newman automated test suite for a Mobile Financial Ser
 - Open with any code editor / Command Shell
 - Give the following command ```npm i``` and ```node .\report.js```
 
+## Postman User Documentation
+  
+  - **https://documenter.getpostman.com/view/28551494/2sBY4VJxBr**
+
 ## Technology Used
 - Postman: If you haven't already, [download and install Postman.](https://www.postman.com/downloads/)
 - Newman
