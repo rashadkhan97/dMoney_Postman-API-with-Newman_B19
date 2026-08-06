@@ -66,4 +66,10 @@ API-Assignment/
   <img src="https://github.com/user-attachments/assets/a9700e7b-1945-4834-976d-12864dfadbca" alt="Report Summary" width="700">
 </p>
 
+### Total Requests
+<p align="center">
+  <img width="697" height="760" alt="image" src="https://github.com/user-attachments/assets/e53fb55e-210c-4f34-8557-9e95b243679a" />
+</p>
+
+
 
